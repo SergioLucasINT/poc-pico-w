@@ -20,3 +20,7 @@ O código utiliza das bibliotecas mencionadas acima e da rede aberta Wokwi para 
 6. Criação de conexão socket na url escolhida, utilizando a biblioteca socket.
 7. Envio da request e acende o led RGB na cor amarela
 8. Ao receber a resposta, caso o retorno do status seja 200 OK, o led RGB irá trocar para a cor verde, caso contrário, irá trocar para cor vermelha.
+
+## Conclusão
+
+É possível concluir com essa prova de conceito as capacidades do microcontrolador de se comunicar via internet e utilizar sockets, abrindo portas para possibilidades mais complexas de uso deste produto.
