@@ -4,7 +4,7 @@ Nesta prova de conceito, há o foco em mostrar a interface de rede Wi-Fi integra
 
 ## Ferramentas
 
-Para realização dessa prova de conceito foi utilizado a plataforma Wokwi, o microcontrolador utilizado foi o Raspberry Pi Pico W, e a linguagem utilizada para programar o sistema foi o MicroPython com auxílio das bibliotecas network, time, machine e usocket.
+Para realização dessa prova de conceito foi utilizado a plataforma Wokwi, o microcontrolador utilizado foi o Raspberry Pi Pico W, e a linguagem utilizada para programar o sistema foi o MicroPython com auxílio das bibliotecas network, time, machine e usocket. [O projeto está disponível neste link](https://wokwi.com/projects/379349465776406529)
 
 ## Entendimento do Código (Alto nível)
 
