@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Sergio Lucas",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": 0, "left": 0, "attrs": { "cyw43": "1" } },
+    {
+      "type": "wokwi-rgb-led",
+      "id": "rgb1",
+      "top": 42.4,
+      "left": 154.7,
+      "attrs": { "common": "cathode" }
+    }
+  ],
+  "connections": [
+    [ "rgb1:R", "pico:GP21", "red", [ "v0" ] ],
+    [ "rgb1:G", "pico:GP20", "green", [ "v0" ] ],
+    [ "rgb1:B", "pico:GP19", "blue", [ "v0" ] ],
+    [ "pico:GND.6", "rgb1:COM", "black", [ "h0" ] ]
+  ],
+  "serialMonitor": { "display": "terminal" },
+  "dependencies": {}
+}
